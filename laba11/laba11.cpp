@@ -11,7 +11,7 @@ struct tube {
     float diameter;
     bool in_repair;
 };
-
+ 
 struct KS {
     string name;
     int workshops;
@@ -29,7 +29,7 @@ int CheckInt() {
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "Ошибка. Попробуйте снова: ";
         }
-        else {
+        else { 
             return num;
         }
     }
