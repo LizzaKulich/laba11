@@ -39,7 +39,7 @@ int CheckInt() {
 float CheckFloat() {
     float num;
     while (true) {
-        cin >> num;
+        cin >> num; 
         if (cin.fail() || num < 0) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
